@@ -6,6 +6,8 @@
 
     <dimen name="fab_elevation">2dp</dimen>
     <dimen name="elevation">4dp</dimen>
+    <dimen name="bottom">168dp</dimen>
+    <dimen name="bottom_land">60dp</dimen>
     <dimen name="card_view_corner_radius">9dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="padding">16dp</dimen>

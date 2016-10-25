@@ -8,6 +8,7 @@ import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -63,6 +64,7 @@ public class ArticleDetailFragment extends Fragment implements
     private AppBarLayout appBar;
     private FloatingActionButton floatingActionButton;
     private View heading;
+    private TextView wiki;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -112,6 +114,9 @@ public class ArticleDetailFragment extends Fragment implements
         statusBarColorDrawable = new ColorDrawable(0);
         floatingActionButton = (FloatingActionButton) getActivity().findViewById(R.id.share_fab);
         heading = rootView.findViewById(R.id.meta_bar);
+        wiki = (TextView) rootView.findViewById(R.id.wikitext);
+
+
         boolean shouldAddScrollViewTranslations = getResources().getBoolean(R.bool.add_scroll_view_translations);
 
         toolbar.setTitle("");
@@ -124,8 +129,17 @@ public class ArticleDetailFragment extends Fragment implements
             public void onClick(View view) {
                 startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
                         .setType("text/plain")
-                        .setText("Hey, I have just seen "+ cursor.getString(ArticleLoader.Query.TITLE) +" in chennai chancey illa! "+"https://play.google.com/store/apps/details?id="+appPackageName)
+                        .setText("Hey, I have just seen "+ cursor.getString(ArticleLoader.Query.TITLE) +" in Chennai Chancey Illa App! "+"https://play.google.com/store/apps/details?id="+appPackageName)
                         .getIntent(), getString(R.string.action_share)));
+            }
+        });
+
+        wiki.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse(cursor.getString(ArticleLoader.Query.URL));
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
 

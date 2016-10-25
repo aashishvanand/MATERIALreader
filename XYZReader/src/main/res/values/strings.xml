@@ -7,8 +7,10 @@
     <string name="action_settings" translatable="false">Settings</string>
     <string name="action_share" translatable="false">Share</string>
     <string name="image" translatable="false">image</string>
+    <string name="wiki_logo" translatable="false">Wikipedia Logo</string>
+    <string name="wiki_text" translatable="false">More @ Wikipedia</string>
 
     <string name="up" translatable="false">Up</string>
-    <string name="article_subtitle" translatable="false">by %s</string>
+    <string name="article_subtitle" translatable="false">in %s</string>
 
 </resources>
