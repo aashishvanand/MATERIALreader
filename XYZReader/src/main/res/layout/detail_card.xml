@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.aashish.reader.ui.MaxWidthLinearLayout
+        <com.aashish.chennaichanceyillai.ui.MaxWidthLinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -70,6 +70,6 @@
                 android:textColorLink="@color/theme_accent"
                 android:textSize="@dimen/detail_body_text_size" />
 
-        </com.aashish.reader.ui.MaxWidthLinearLayout>
+        </com.aashish.chennaichanceyillai.ui.MaxWidthLinearLayout>
     </FrameLayout>
 </android.support.v4.widget.NestedScrollView>

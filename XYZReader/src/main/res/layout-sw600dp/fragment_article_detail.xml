@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <com.aashish.reader.ui.ObservableScrollView
+    <com.aashish.chennaichanceyillai.ui.ObservableScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -30,7 +30,7 @@
                 android:maxHeight="@dimen/detail_photo_height"
                 android:scaleType="centerCrop" />
 
-            <com.aashish.reader.ui.MaxWidthLinearLayout
+            <com.aashish.chennaichanceyillai.ui.MaxWidthLinearLayout
                 android:id="@+id/body_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -94,11 +94,11 @@
                     android:textColorLink="@color/theme_accent"
                     android:textSize="@dimen/detail_body_text_size" />
 
-            </com.aashish.reader.ui.MaxWidthLinearLayout>
+            </com.aashish.chennaichanceyillai.ui.MaxWidthLinearLayout>
 
         </FrameLayout>
 
-    </com.aashish.reader.ui.ObservableScrollView>
+    </com.aashish.chennaichanceyillai.ui.ObservableScrollView>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"

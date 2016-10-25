@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="app_name" translatable="false">Reader</string>
-    <string name="welcome_xyz_reader" translatable="true">Welcome to Reader!</string>
+    <string name="app_name" translatable="false">Chennai Chancey Illa</string>
+    <string name="welcome_xyz_reader" translatable="true">Welcome to Chennai!</string>
 
     <string name="action_refresh" translatable="false">Refresh</string>
     <string name="action_settings" translatable="false">Settings</string>

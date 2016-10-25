@@ -17,7 +17,7 @@
         android:orientation="vertical">
 
         <!--suppress AndroidLintContentDescription -->
-        <com.aashish.reader.ui.DynamicHeightNetworkImageView
+        <com.aashish.chennaichanceyillai.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
             android:layout_width="match_parent"
             android:layout_height="0dp"
