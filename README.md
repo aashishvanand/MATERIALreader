@@ -12,7 +12,7 @@ Know the places in and around Chennai. One might run out of time as there are sc
 <img src="https://raw.githubusercontent.com/aashishvanand/MATERIALreader/master/Screenshots/Screenshot_20161025-123959_framed.png" height=480 width =270/>
 <img src="https://raw.githubusercontent.com/aashishvanand/MATERIALreader/master/Screenshots/Screenshot_20161025-234620_framed.png" height=480 width =270/>
 <img src="https://raw.githubusercontent.com/aashishvanand/MATERIALreader/master/Screenshots/Screenshot_20161025-234639_framed.png" height=480 width =270/>
-<img src="https://raw.githubusercontent.com/aashishvanand/MATERIALreader/master/Screenshots/Screenshot_20161025-234639_framed.png" />
+<img src="https://raw.githubusercontent.com/aashishvanand/MATERIALreader/master/Screenshots/Screenshot_2016-10-25-23-54-40_framed.png" />
 <img src="https://raw.githubusercontent.com/aashishvanand/MATERIALreader/master/Screenshots/Screenshot_2016-10-25-23-54-56_framed.png"/>
 <img src="https://raw.githubusercontent.com/aashishvanand/MATERIALreader/master/Screenshots/Screenshot_2016-10-25-23-55-24_framed.png"/>
 
